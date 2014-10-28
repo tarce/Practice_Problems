@@ -27,7 +27,7 @@ public class ValidPalindrome {
         //int stop = s.length();
         
         for (int i = 0; i < stop; i++) {
-            if (s.charAt(i) != s.charAt(s.length() - i - 1)) {
+            if (s.charAt(i) != s.charAt(s.length() - 1 - i)) {
                 return false;
             }
         }
