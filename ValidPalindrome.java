@@ -24,7 +24,7 @@ public class ValidPalindrome {
         int stop = (s.length() / 2) + 1;
         
         //the below would also work, however is unecessary
-        //int stop = s.length();
+        //int stop = s.length(); or lenght()/2 would work;
         
         for (int i = 0; i < stop; i++) {
             if (s.charAt(i) != s.charAt(s.length() - 1 - i)) {
