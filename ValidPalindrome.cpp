@@ -1,3 +1,10 @@
+/*
+* Given a string, determine if it is a palindrome, 
+* considering only alphanumeric characters and ignoring cases.
+* For the purpose of this problem, we define empty string as
+* valid palindrome.
+*/
+
 class Solution {
 public:
     bool isPalindrome(string s) {
