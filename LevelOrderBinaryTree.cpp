@@ -27,8 +27,6 @@ public:
         queue<TreeNode*> tempQ;
         while (!q.empty()) {
             
-
-            
             while (!q.empty()) {
                 
                 curLevel.push_back(q.front()->val);
